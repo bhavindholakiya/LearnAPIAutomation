@@ -1,6 +1,7 @@
 package main.java.org.testcase;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import main.java.org.requestBody.Payload;
 
 import static io.restassured.RestAssured.*;
@@ -21,7 +22,7 @@ public class GooglePlace {
         String PlaceId = null;
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
-        given()
+        String response = given()
                 .log().all()
                 .queryParam(Key,KeyValue)
                 .header(ContentType, ContentTypeValue)
@@ -29,11 +30,18 @@ public class GooglePlace {
                 .when()
                     .post("/maps/api/place/add/json")
                 .then()
-                    .log().all()
+                    //.log().all()
                     .assertThat().statusCode(200)
                         .body("scope", equalTo("APP"))
-                        .header("Server", "Apache/2.4.41 (Ubuntu)");
+                        .header("Server", "Apache/2.4.41 (Ubuntu)")
+                        .extract().response().asString();
 
-        //Add Place -> Update place with New Address -> Get Place to validate if New Address is present.
+        System.out.println("Response: "+response);
+
+        JsonPath js = new JsonPath(response);
+        PlaceId = js.getString("place_id");
+
+        System.out.println("Extracted Place ID is: "+PlaceId);
+
     }
 }
