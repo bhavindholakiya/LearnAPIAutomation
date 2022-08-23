@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" afterDir="false" />
+    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="Automated Update Place API">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/Main.java" afterDir="false" />
     </list>
@@ -86,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660991118272</updated>
     </task>
+    <task id="LOCAL-00001" summary="Automated Update Place API">
+      <created>1661261999860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661261999860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,56 +105,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Automated Update Place API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automated Update Place API" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="io.restassured.path.json.JsonPath" memberName="rootPath" />

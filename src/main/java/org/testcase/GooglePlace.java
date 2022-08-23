@@ -53,5 +53,21 @@ public class GooglePlace {
                 .then()
                     .assertThat().log().all().statusCode(200)
                     .body("msg", equalTo("Address successfully updated"));
+
+        String getPlaceResponse = given()
+                .log().all()
+                .queryParam(Key, KeyValue)
+                .queryParam("place_id", PlaceId)
+                .when().get("maps/api/place/get/json")
+                .then().log().all()
+                .assertThat().statusCode(200)
+                    .header("Server", "Apache/2.4.41 (Ubuntu)")
+                    .body("address", equalTo(ExpectedAddress))
+                    .extract().response().asString();
+
+        JsonPath js1 = new JsonPath(getPlaceResponse);
+        String ActualAddress = js1.getString("address");
+
+        System.out.println("Actual updated address is: " +ActualAddress);
     }
 }
