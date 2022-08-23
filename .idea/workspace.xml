@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="Intial comment with Add Place API">
+    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main.java.org.testcase.GooglePlace">
+  <component name="RunManager" selected="Application.GooglePlace">
     <configuration name="GooglePlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.org.testcase.GooglePlace" />
       <module name="Learn_API_Automation_" />
@@ -70,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main.java.org.testcase.GooglePlace" />
-        <item itemvalue="Application.main.java.org.testcase.Main" />
+        <item itemvalue="Application.GooglePlace" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -96,5 +98,61 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/testcase/GooglePlace.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.restassured.path.json.JsonPath" memberName="rootPath" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

@@ -20,8 +20,10 @@ public class GooglePlace {
         String ContentType = "Content-Type";
         String ContentTypeValue = "application/json";
         String PlaceId = null;
+        String ExpectedAddress = "Tapi River Front, Near Cause way, Surat";
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
+
         String response = given()
                 .log().all()
                 .queryParam(Key,KeyValue)
@@ -43,5 +45,13 @@ public class GooglePlace {
 
         System.out.println("Extracted Place ID is: "+PlaceId);
 
+        given().log().all()
+                .queryParam(Key, KeyValue)
+                .header(ContentType, ContentTypeValue)
+                .body(Payload.UpdatePlace(PlaceId,ExpectedAddress))
+                .when().put("/maps/api/place/update/json")
+                .then()
+                    .assertThat().log().all().statusCode(200)
+                    .body("msg", equalTo("Address successfully updated"));
     }
 }
