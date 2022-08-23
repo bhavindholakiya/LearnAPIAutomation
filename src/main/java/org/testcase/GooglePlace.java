@@ -2,7 +2,9 @@ package main.java.org.testcase;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import main.java.org.requestBody.Helper;
 import main.java.org.requestBody.Payload;
+import org.testng.Assert;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
@@ -65,9 +67,10 @@ public class GooglePlace {
                     .body("address", equalTo(ExpectedAddress))
                     .extract().response().asString();
 
-        JsonPath js1 = new JsonPath(getPlaceResponse);
+        JsonPath js1 = Helper.RawToJson(getPlaceResponse);
         String ActualAddress = js1.getString("address");
 
         System.out.println("Actual updated address is: " +ActualAddress);
+        Assert.assertEquals(ActualAddress, ExpectedAddress);
     }
 }
