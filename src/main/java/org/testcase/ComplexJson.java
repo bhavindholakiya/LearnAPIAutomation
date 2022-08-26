@@ -41,8 +41,13 @@ public class ComplexJson {
         System.out.println("********************************************************************");
 
         // 5. Print no of copies sold by RPA Course
-        int soldCopiesOfRPA = js.getInt("courses[2].copies");
-        System.out.println("No of copies sold by RPA Course: "+soldCopiesOfRPA);
+        for(int i=0;i<NoOfCourse;i++){
+            String courseTitle = js.getString("courses["+i+"].title");
+            if (courseTitle.equalsIgnoreCase("RPA")){
+                int soldCopiesOfRPA = js.getInt("courses["+i+"].copies");
+                System.out.println("No of copies sold by RPA Course: "+soldCopiesOfRPA);
+            }
+        }
         System.out.println("********************************************************************");
 
         //6. Verify if Sum of all Course prices matches with Purchase Amount
