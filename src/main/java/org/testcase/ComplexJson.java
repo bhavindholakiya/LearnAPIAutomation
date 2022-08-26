@@ -46,6 +46,7 @@ public class ComplexJson {
             if (courseTitle.equalsIgnoreCase("RPA")){
                 int soldCopiesOfRPA = js.getInt("courses["+i+"].copies");
                 System.out.println("No of copies sold by RPA Course: "+soldCopiesOfRPA);
+                break;
             }
         }
         System.out.println("********************************************************************");
