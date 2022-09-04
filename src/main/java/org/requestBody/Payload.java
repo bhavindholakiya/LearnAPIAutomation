@@ -54,4 +54,21 @@ public class Payload {
                 "  ]\n" +
                 "}";
     }
+
+    public static String AddBook(String isbn, String aisle) {
+        String payload = "{\n" +
+                "    \"name\": \"Learn API Automation with Java\",\n" +
+                "    \"isbn\": \""+isbn+"\",\n" +
+                "    \"aisle\": \""+aisle+"\",\n" +
+                "    \"author\": \"Bhavin D.\"\n" +
+                "}";
+        return payload;
+    }
+
+    public static String DeleteBook(String ID){
+        String payload = "{\n" +
+                "    \"ID\": \""+ID+"\"\n" +
+                "}";
+        return payload;
+    }
 }

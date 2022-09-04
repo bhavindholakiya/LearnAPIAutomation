@@ -49,7 +49,7 @@ public class ComplexJson {
                 break;
             }
         }
-        System.out.println("********************************************************************");
+        System.out.println("******************************************************************* *");
 
         //6. Verify if Sum of all Course prices matches with Purchase Amount
         int ActualTotal = 0;

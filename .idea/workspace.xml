@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="Handle Complex JSON with different cases">
+    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="Optimized Sold copies case using Break statement">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testcase/DynamicJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/ComplexJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/ComplexJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ComplexJson">
+  <component name="RunManager" selected="TestNG.DynamicJson.AddBook">
     <configuration name="ComplexJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.org.testcase.ComplexJson" />
       <module name="Learn_API_Automation_" />
@@ -84,8 +86,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.org.testcase.DynamicJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.java.org.testcase.DynamicJson" />
+      <module name="Learn_API_Automation_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.org.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicJson.AddBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Learn_API_Automation_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.org.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.org.testcase" />
+      <option name="MAIN_CLASS_NAME" value="main.java.org.testcase.DynamicJson" />
+      <option name="METHOD_NAME" value="AddBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ComplexJson" />
+      <item itemvalue="Application.main.java.org.testcase.DynamicJson" />
+      <item itemvalue="Application.GooglePlace" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.DynamicJson.AddBook" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicJson.AddBook" />
+        <item itemvalue="Application.main.java.org.testcase.DynamicJson" />
         <item itemvalue="Application.ComplexJson" />
         <item itemvalue="Application.GooglePlace" />
         <item itemvalue="Application.Main" />
@@ -129,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661267003840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change logic to get number of copies by CourseName dynamically in Complex JSON">
+      <created>1661524034148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661524034148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Optimized Sold copies case using Break statement">
+      <created>1661524160681</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661524160682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +206,9 @@
     <MESSAGE value="Automated Get Place API using PlaceID" />
     <MESSAGE value="Compare Actual and Expected Address uging TestNG assertion and updated TestNG version to 7.5" />
     <MESSAGE value="Handle Complex JSON with different cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle Complex JSON with different cases" />
+    <MESSAGE value="Change logic to get number of copies by CourseName dynamically in Complex JSON" />
+    <MESSAGE value="Optimized Sold copies case using Break statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized Sold copies case using Break statement" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
