@@ -30,13 +30,20 @@ public class DynamicJson {
         JsonPath js = Helper.RawToJson(response);
         BookID = js.getString("ID");
         System.out.println("The Book ID is: "+BookID);
+    }
 
+    @Test(dataProvider = "Books")
+    public void DeleteBookByID(String isbn, String aisle){
         // Deleting above created book.
+
+        String BookID = isbn.concat(aisle);
+
         String DeleteRes = given()
                 .header("Content-Type", "application/json")
                 .body(Payload.DeleteBook(BookID))
                 .when().post("/Library/DeleteBook.php")
-                .then().log().all()
+                .then()
+                //.log().all()
                 .assertThat().statusCode(200)
                 .extract().response().asString();
 

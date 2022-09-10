@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662824746076</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Example on parameterization of API Tests with multiple data sets">
+      <created>1662825896657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662825896657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +229,8 @@
     <MESSAGE value="Optimized Sold copies case using Break statement" />
     <MESSAGE value="Handle API with dynamic JSON with Parameterized" />
     <MESSAGE value="Understanding TestNG data provide for parameterization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Understanding TestNG data provide for parameterization" />
+    <MESSAGE value="Example on parameterization of API Tests with multiple data sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example on parameterization of API Tests with multiple data sets" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
