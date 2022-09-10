@@ -15,14 +15,15 @@ public class DynamicJson {
     String BookID=null;
 
     @Test(dataProvider = "Books")
-    public void AddBook(){
+    public void AddBook(String isbn, String aisle){
         RestAssured.baseURI = "https://rahulshettyacademy.com";
         String response = given()
-                .log().all()
+                //.log().all()
                 .header("Content-Type", "application/json")
-                .body(Payload.AddBook("MBD","22012"))
+                .body(Payload.AddBook(isbn,aisle))
                 .when().post("/Library/Addbook.php")
-                .then().log().all()
+                .then()
+                //.log().all()
                 .assertThat().statusCode(200)
                 .extract().response().asString();
 

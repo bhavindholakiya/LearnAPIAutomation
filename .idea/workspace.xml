@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662310206739</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Understanding TestNG data provide for parameterization">
+      <created>1662824746076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662824746076</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +221,8 @@
     <MESSAGE value="Change logic to get number of copies by CourseName dynamically in Complex JSON" />
     <MESSAGE value="Optimized Sold copies case using Break statement" />
     <MESSAGE value="Handle API with dynamic JSON with Parameterized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle API with dynamic JSON with Parameterized" />
+    <MESSAGE value="Understanding TestNG data provide for parameterization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understanding TestNG data provide for parameterization" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
