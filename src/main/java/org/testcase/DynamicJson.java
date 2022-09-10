@@ -5,6 +5,7 @@ import io.restassured.path.json.JsonPath;
 import main.java.org.requestBody.Helper;
 import main.java.org.requestBody.Payload;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -13,7 +14,7 @@ public class DynamicJson {
 
     String BookID=null;
 
-    @Test
+    @Test(dataProvider = "Books")
     public void AddBook(){
         RestAssured.baseURI = "https://rahulshettyacademy.com";
         String response = given()
@@ -42,6 +43,14 @@ public class DynamicJson {
         String msg = djs.get("msg");
 
         Assert.assertEquals(msg, "book is successfully deleted");
+    }
 
+    @DataProvider(name = "Books")
+    public Object[][] getData(){
+        return new Object[][] {
+                {"Test1","2001"},
+                {"Test2","2002"},
+                {"Test3","2003"},
+        };
     }
 }

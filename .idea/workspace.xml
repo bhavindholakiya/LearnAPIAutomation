@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="Optimized Sold copies case using Break statement">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testcase/DynamicJson.java" afterDir="false" />
+    <list default="true" id="849664a9-3630-41a9-8698-5f8efdb22fda" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/requestBody/Payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/ComplexJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/ComplexJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testcase/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testcase/DynamicJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661524160682</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Handle API with dynamic JSON with Parameterized">
+      <created>1662310206739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662310206739</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +213,8 @@
     <MESSAGE value="Handle Complex JSON with different cases" />
     <MESSAGE value="Change logic to get number of copies by CourseName dynamically in Complex JSON" />
     <MESSAGE value="Optimized Sold copies case using Break statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized Sold copies case using Break statement" />
+    <MESSAGE value="Handle API with dynamic JSON with Parameterized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle API with dynamic JSON with Parameterized" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
