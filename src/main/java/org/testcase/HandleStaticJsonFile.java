@@ -31,7 +31,7 @@ public class HandleStaticJsonFile {
         String ContentTypeValue = "application/json";
         String PlaceId = null;
         String ExpectedAddress = "Tapi River Front, Near Cause way, Surat";
-        String AddPlaceFilePath = "E:\\Automation\\Learn_API_Automation_\\src\\main\\java\\org\\resources\\AddPlace.json";
+        String AddPlaceFilePath = System.getProperty("user.dir") + "\\src\\main\\java\\org\\resources\\AddPlace.json";
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
 
